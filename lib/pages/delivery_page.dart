@@ -15,7 +15,9 @@ class DeliveryPage extends StatelessWidget {
           children: [
             Padding(
               padding: EdgeInsets.only(top: 120, bottom: 24),
-              child: Text('Animação'),
+              child: Lottie.network(
+                "https://assets5.lottiefiles.com/packages/lf20_6YCRFI.json",
+              ),
             ),
             Text(
               "Marcos está a caminho",
